@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../GaeaAPSPlugin/pom.xml" />
+        <option value="$PROJECT_DIR$/../GaeaDBPlugin/pom.xml" />
+        <option value="$PROJECT_DIR$/../GaeaDataSourcePlugin/pom.xml" />
+        <option value="$PROJECT_DIR$/../GaeaAuthorizationPlugin/pom.xml" />
+        <option value="$PROJECT_DIR$/../GaeaAPSSampleOrderProvider/pom.xml" />
+        <option value="$PROJECT_DIR$/../GaeaAPSDefaultEngine/pom.xml" />
+        <option value="$PROJECT_DIR$/../GaeaInterface/pom.xml" />
+        <option value="$PROJECT_DIR$/../GaeaInstallPlugin/pom.xml" />
+        <option value="$PROJECT_DIR$/../GaeaInstaller/pom.xml" />
+        <option value="$PROJECT_DIR$/../GaeaIndustryLib/pom.xml" />
+        <option value="$PROJECT_DIR$/../GaeaExcelPlugin/pom.xml" />
+        <option value="$PROJECT_DIR$/../Encryption/pom.xml" />
+        <option value="$PROJECT_DIR$/../AdpaterCallStack/pom.xml" />
+        <option value="$PROJECT_DIR$/../DBHelper/pom.xml" />
+        <option value="$PROJECT_DIR$/../DBInterface/pom.xml" />
+        <option value="$PROJECT_DIR$/../GaeaPlugin/pom.xml" />
+        <option value="$PROJECT_DIR$/../GaeaRolePlugin/pom.xml" />
+        <option value="$PROJECT_DIR$/../GaeaWorkflowPlugin/pom.xml" />
+        <option value="$PROJECT_DIR$/../HttpInterface/pom.xml" />
+        <option value="$PROJECT_DIR$/../ParallelComputing/pom.xml" />
+        <option value="$PROJECT_DIR$/../ExceIX/pom.xml" />
+        <option value="$PROJECT_DIR$/../RolerOper/pom.xml" />
+        <option value="$PROJECT_DIR$/../SwingTools/pom.xml" />
+        <option value="$PROJECT_DIR$/../Tools/pom.xml" />
+        <option value="$PROJECT_DIR$/../GaeaEMWXPlugin/pom.xml" />
+        <option value="$PROJECT_DIR$/../GaeaDeviceGatePlugin/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

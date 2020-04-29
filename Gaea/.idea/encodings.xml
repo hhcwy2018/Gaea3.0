@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../AdpaterCallStack/src" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../DBHelper/src" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../DBInterface/src" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Encryption/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Encryption/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ExceIX/src" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../GaeaAPSDefaultEngine/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../GaeaAPSPlugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../GaeaAPSSampleOrderProvider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../GaeaAuthorizationPlugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../GaeaDBPlugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../GaeaDataSourcePlugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../GaeaDeviceGatePlugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../GaeaEMWXPlugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../GaeaExcelPlugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../GaeaIndustryLib/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../GaeaInstallPlugin/src" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../GaeaInstallPlugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../GaeaInstaller/src" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../GaeaInterface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../GaeaPlugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../GaeaRolePlugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../GaeaWorkflowPlugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../HttpInterface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ParallelComputing/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../RolerOper/src" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../SwingTools/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Tools/src/main/java" charset="UTF-8" />
+  </component>
+</project>

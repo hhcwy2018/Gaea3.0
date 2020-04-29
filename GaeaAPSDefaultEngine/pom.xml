@@ -1,0 +1,120 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.wh</groupId>
+	<artifactId>GaeaAPSDefaultEngine</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<name>GaeaAPSDefaultEngine</name>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<swagger.version>2.7.0</swagger.version>
+	</properties>
+
+	<!-- 阿里云maven仓库 -->
+	<repositories>
+		<repository>
+			<id>public</id>
+			<name>aliyun nexus</name>
+			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+		</repository>
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>public</id>
+			<name>aliyun nexus</name>
+			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</pluginRepository>
+	</pluginRepositories>
+
+
+	<build>
+		<plugins>
+			<plugin>
+				<version>3.5.1</version>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<failOnMissingWebXml>false</failOnMissingWebXml>
+					<source>1.8</source>
+					<target>1.8</target>
+					<encoding>${project.build.sourceEncoding}</encoding>
+				</configuration>
+			</plugin>
+
+			<!-- 把jar包拷贝到指定目录位置 -->
+			<plugin>
+				<artifactId>maven-antrun-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>copy</id>
+						<phase>package</phase>
+						<configuration>
+							<tasks>
+								<copy tofile="${basedir}/../Gaea3.0/aps/engine/${project.artifactId}.jar">
+									<fileset dir="${project.build.directory}">
+										<include
+											name="${project.artifactId}-${project.version}.jar" />
+									</fileset>
+								</copy>
+								<copy tofile="${basedir}/../Gaea/aps/engine/${project.artifactId}.jar">
+									<fileset dir="${project.build.directory}">
+										<include
+											name="${project.artifactId}-${project.version}.jar" />
+									</fileset>
+								</copy>
+							</tasks>
+						</configuration>
+						<goals>
+							<goal>run</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.wh</groupId>
+			<artifactId>GaeaAPSPlugin</artifactId>
+			<version>3.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.wh</groupId>
+			<artifactId>DBInterface</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.wh</groupId>
+			<artifactId>GaeaInterface</artifactId>
+			<version>3.0</version>
+
+		</dependency>
+		<dependency>
+			<groupId>com.wh</groupId>
+			<artifactId>GaeaPlugin</artifactId>
+			<version>3.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.wh</groupId>
+			<artifactId>GaeaIndustryLib</artifactId>
+			<version>3.0</version>
+		</dependency>
+
+	</dependencies>
+
+</project>

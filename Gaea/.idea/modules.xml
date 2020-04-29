@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../AdpaterCallStack/AdpaterCallStack.iml" filepath="$PROJECT_DIR$/../AdpaterCallStack/AdpaterCallStack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../DBHelper/DBHelper.iml" filepath="$PROJECT_DIR$/../DBHelper/DBHelper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../DBInterface/DBInterface.iml" filepath="$PROJECT_DIR$/../DBInterface/DBInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Encryption/Encryption.iml" filepath="$PROJECT_DIR$/../Encryption/Encryption.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ExceIX/ExceIX.iml" filepath="$PROJECT_DIR$/../ExceIX/ExceIX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gaea.iml" filepath="$PROJECT_DIR$/Gaea.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../GaeaAPSDefaultEngine/GaeaAPSDefaultEngine.iml" filepath="$PROJECT_DIR$/../GaeaAPSDefaultEngine/GaeaAPSDefaultEngine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../GaeaAPSPlugin/GaeaAPSPlugin.iml" filepath="$PROJECT_DIR$/../GaeaAPSPlugin/GaeaAPSPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../GaeaAPSSampleOrderProvider/GaeaAPSSampleOrderProvider.iml" filepath="$PROJECT_DIR$/../GaeaAPSSampleOrderProvider/GaeaAPSSampleOrderProvider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../GaeaAuthorizationPlugin/GaeaAuthorizationPlugin.iml" filepath="$PROJECT_DIR$/../GaeaAuthorizationPlugin/GaeaAuthorizationPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../GaeaDBPlugin/GaeaDBPlugin.iml" filepath="$PROJECT_DIR$/../GaeaDBPlugin/GaeaDBPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../GaeaDataSourcePlugin/GaeaDataSourcePlugin.iml" filepath="$PROJECT_DIR$/../GaeaDataSourcePlugin/GaeaDataSourcePlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../GaeaDeviceGatePlugin/GaeaDeviceGatePlugin.iml" filepath="$PROJECT_DIR$/../GaeaDeviceGatePlugin/GaeaDeviceGatePlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../GaeaEMWXPlugin/GaeaEMWXPlugin.iml" filepath="$PROJECT_DIR$/../GaeaEMWXPlugin/GaeaEMWXPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../GaeaExcelPlugin/GaeaExcelPlugin.iml" filepath="$PROJECT_DIR$/../GaeaExcelPlugin/GaeaExcelPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../GaeaIndustryLib/GaeaIndustryLib.iml" filepath="$PROJECT_DIR$/../GaeaIndustryLib/GaeaIndustryLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../GaeaInstallPlugin/GaeaInstallPlugin.iml" filepath="$PROJECT_DIR$/../GaeaInstallPlugin/GaeaInstallPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../GaeaInstaller/GaeaInstaller.iml" filepath="$PROJECT_DIR$/../GaeaInstaller/GaeaInstaller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../GaeaInterface/GaeaInterface.iml" filepath="$PROJECT_DIR$/../GaeaInterface/GaeaInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../GaeaPlugin/GaeaPlugin.iml" filepath="$PROJECT_DIR$/../GaeaPlugin/GaeaPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../GaeaRolePlugin/GaeaRolePlugin.iml" filepath="$PROJECT_DIR$/../GaeaRolePlugin/GaeaRolePlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../GaeaWorkflowPlugin/GaeaWorkflowPlugin.iml" filepath="$PROJECT_DIR$/../GaeaWorkflowPlugin/GaeaWorkflowPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../HttpInterface/HttpInterface.iml" filepath="$PROJECT_DIR$/../HttpInterface/HttpInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ParallelComputing/ParallelComputing.iml" filepath="$PROJECT_DIR$/../ParallelComputing/ParallelComputing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../RolerOper/RolerOper.iml" filepath="$PROJECT_DIR$/../RolerOper/RolerOper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SwingTools/SwingTools.iml" filepath="$PROJECT_DIR$/../SwingTools/SwingTools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Tools/Tools.iml" filepath="$PROJECT_DIR$/../Tools/Tools.iml" />
+    </modules>
+  </component>
+</project>

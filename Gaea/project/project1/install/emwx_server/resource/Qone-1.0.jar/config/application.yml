@@ -1,0 +1,85 @@
+# 开发环境配置
+server:
+  # 服务端口
+  port: 8084
+  servlet:
+    # 项目contextPath
+    context-path: /TiTan-Qzone
+    session:
+      cookie:
+        http-only: false
+  tomcat:
+    # tomcat的URI编码
+    uri-encoding: UTF-8
+    # tomcat最大线程数，默认为200
+    max-threads: 300
+    # Tomcat启动初始化的线程数，默认值25
+    min-spare-threads: 50
+# 日志配置
+logging:
+  level:
+    wh.spring: debug
+    org.springframework: WARN
+    org.spring.springboot.dao: debug
+upload:
+  address: D:/upload/
+  downloadUrl: http://172.16.0.234:8081/upload/
+  wmsUrl: xxx
+  outWareSock: xxx
+  inWareSock: xxx
+  tongbuUrl: xxx
+  ckloadUrl: xxx
+mq:
+  user: wp
+  password: wp
+  timeout: 15000
+  host: 172.16.0.48
+  port: 5672
+  virtualhost: wp
+  workercount: 10
+  gcQueue: gc
+  gcKey: gc
+  gcExchange: gc
+gconfig: 
+  appname: Gaea-Qone
+db:
+  dbtype: dbSqlServer
+sessionfilter: 
+  register-mapping: /e9/register
+  login-mapping: /e9/login
+  exclude: /ex/user
+filemodel: 
+  rootpath: x:\\filemodel
+gaea:
+  url: http://localhost/project/Gaea-Qone
+  auth:
+    key: jspadapterserver
+# Spring配置
+spring:
+  redis:
+      jedis:
+        pool:
+          max-wait: -1
+          max-active: 200
+          max-idle: 200
+          min-idle: 10
+      host: 127.0.0.1
+      port: 6379
+      password: 112233
+      timeout: 1000
+      database: 1
+  mvc:
+    pathmatch:
+      use-suffix-pattern: true
+  session:
+    store-type: redis
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+  profiles:
+    active: druid, gaea, redis, mybits, defines, app
+  # 服务模块
+  devtools:
+    restart:
+      # 热部署开关
+      enabled: true

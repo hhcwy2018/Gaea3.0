@@ -1,0 +1,82 @@
+# 数据源配置
+spring:
+    # rabbitmq 服务配置
+    rabbitmq:
+        # 重新发送消息次数
+        tryCount: 3
+        # 超时时间
+        mqTimeOut: 15000
+        # workerCount
+        workerCount: 10
+        # rabbitmq 服务IP
+        host: 172.16.1.129
+        # rabbitmq 服务端口号
+        port: 5672
+        # rabbitmq 用户名
+        username: feng
+        # rabbitmq 密码
+        password: feng
+        virtual-host: feng
+        connection-timeout: 20000
+        # 消费者配置
+        listener:
+            simple:
+                # 并发数
+                concurrency: 20
+                # 最大并发数
+                max-concurrency: 2000
+                # 限流 取决于服务器性能
+                prefetch: 1
+                # 手动签收 （可配自动）
+                acknowledge-mode: manual
+        # 高可靠 消息确认
+        publisher-confirms: true
+        publisher-returns: true
+        template:
+            mandatory: true
+    datasource:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+        druid:
+            # Bridge数据源
+            master:
+                url: jdbc:sqlserver://172.16.0.227:1433;DatabaseName=guoli_bridge
+                username: sa
+                password: sa123456.123
+            # E9数据源
+            slave:
+                # E9数据源开关：true 开启，false 关闭
+                enabled: false
+                url: jdbc:sqlserver://172.16.0.244:1433;DatabaseName=test
+                username: sa
+                password: sa123456
+            # 初始连接数
+            initial-size: 10
+            # 最大连接池数量
+            max-active: 100
+            # 最小连接池数量
+            min-idle: 10
+            # 配置获取连接等待超时的时间
+            max-wait: 60000
+            # 打开PSCache，并且指定每个连接上PSCache的大小
+            pool-prepared-statements: true
+            max-pool-prepared-statement-per-connection-size: 20
+            # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+            timeBetweenEvictionRunsMillis: 60000
+            # 配置一个连接在池中最小生存的时间，单位是毫秒
+            min-evictable-idle-time-millis: 300000
+            validation-query: SELECT 1 FROM DUAL
+            test-while-idle: true
+            test-on-borrow: false
+            test-on-return: false
+            stat-view-servlet:
+                enabled: true
+                url-pattern: /monitor/druid/*
+            filter:
+                stat:
+                    log-slow-sql: true
+                    slow-sql-millis: 1000
+                    merge-sql: false
+                wall:
+                    config:
+                        multi-statement-allow: true

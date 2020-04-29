@@ -1,0 +1,1 @@
+java -jar Qone-1.0.jar

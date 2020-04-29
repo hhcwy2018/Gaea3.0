@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="DBHelper" />
+        <module name="ExceIX" />
+        <module name="GaeaDataSourcePlugin" />
+        <module name="Encryption" />
+        <module name="GaeaRolePlugin" />
+        <module name="GaeaExcelPlugin" />
+        <module name="GaeaDeviceGatePlugin" />
+        <module name="ParallelComputing" />
+        <module name="GaeaAPSDefaultEngine" />
+        <module name="GaeaWorkflowPlugin" />
+        <module name="GaeaAuthorizationPlugin" />
+        <module name="GaeaPlugin" />
+        <module name="SwingTools" />
+        <module name="RolerOper" />
+        <module name="GaeaAPSPlugin" />
+        <module name="AdpaterCallStack" />
+        <module name="DBInterface" />
+        <module name="GaeaAPSSampleOrderProvider" />
+        <module name="GaeaInstallPlugin" />
+        <module name="GaeaIndustryLib" />
+        <module name="Tools" />
+        <module name="GaeaInterface" />
+        <module name="Gaea" />
+        <module name="HttpInterface" />
+        <module name="GaeaDBPlugin" />
+        <module name="GaeaEMWXPlugin" />
+        <module name="GaeaInstaller" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AdpaterCallStack" target="1.8" />
+      <module name="DBHelper" target="1.8" />
+      <module name="DBInterface" target="1.8" />
+      <module name="Encryption" target="1.8" />
+      <module name="ExceIX" target="1.8" />
+      <module name="Gaea" target="1.8" />
+      <module name="GaeaAPSDefaultEngine" target="1.8" />
+      <module name="GaeaAPSPlugin" target="1.8" />
+      <module name="GaeaAPSSampleOrderProvider" target="1.8" />
+      <module name="GaeaAuthorizationPlugin" target="1.8" />
+      <module name="GaeaDataSourcePlugin" target="1.8" />
+      <module name="GaeaDBPlugin" target="1.8" />
+      <module name="GaeaDeviceGatePlugin" target="1.8" />
+      <module name="GaeaEMWXPlugin" target="1.8" />
+      <module name="GaeaEMWXPlugin (1)" target="1.8" />
+      <module name="GaeaEMWXPlugin (2)" target="1.8" />
+      <module name="GaeaExcelPlugin" target="1.8" />
+      <module name="GaeaIndustryLib" target="1.8" />
+      <module name="GaeaInstaller" target="1.8" />
+      <module name="GaeaInstallPlugin" target="1.8" />
+      <module name="GaeaInterface" target="1.8" />
+      <module name="GaeaPlugin" target="1.8" />
+      <module name="GaeaRolePlugin" target="1.8" />
+      <module name="GaeaWorkflowPlugin" target="1.8" />
+      <module name="HttpInterface" target="1.8" />
+      <module name="ParallelComputing" target="1.8" />
+      <module name="RolerOper" target="1.8" />
+      <module name="SwingTools" target="1.8" />
+      <module name="Tools" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Gaea" options="-extdirs X:\JAVA64\Gaea/src/lib" />
+      <module name="GaeaInstaller" options="-extdirs X:\JAVA64\GaeaInstaller/src/lib" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="79c7e304-1e61-498a-bcd2-94dc8ce29ce2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1aZ5lOsBtbacmYcd06Qp1Udjtgf" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GaeaDeviceGatePlugin/pom.xml" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wh.gaea.industry.info" />
+      <recent name="com.wh.gaea.plugin.aps.info" />
+      <recent name="com.wh.parallel.computing.interfaces" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Gaea">
+    <configuration name="Gaea" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.wh.gaea.form.MainForm" />
+      <module name="Gaea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wh.gaea.form.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GaeaInstaller" type="Application" factoryName="Application">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.wh.gaea.install.form.MainForm" />
+      <module name="GaeaInstaller" />
+      <option name="PROGRAM_PARAMETERS" value="install.wh" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../GaeaInstaller" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.GaeaInstaller" />
+      <item itemvalue="Application.Gaea" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Gaea" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79c7e304-1e61-498a-bcd2-94dc8ce29ce2" name="Default Changelist" comment="" />
+      <created>1586930425671</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586930425671</updated>
+      <workItem from="1586930427296" duration="1496000" />
+      <workItem from="1586933940607" duration="19000" />
+      <workItem from="1586934017292" duration="156000" />
+      <workItem from="1586934714352" duration="5486000" />
+      <workItem from="1586941435569" duration="252000" />
+      <workItem from="1586999525259" duration="623000" />
+      <workItem from="1587000182420" duration="782000" />
+      <workItem from="1587001418347" duration="2305000" />
+      <workItem from="1587085853281" duration="20445000" />
+      <workItem from="1587349118475" duration="23000" />
+      <workItem from="1587358959004" duration="13903000" />
+      <workItem from="1587373329133" duration="21285000" />
+      <workItem from="1587517695767" duration="11414000" />
+      <workItem from="1587546556299" duration="543000" />
+      <workItem from="1587547484146" duration="2061000" />
+      <workItem from="1587602491405" duration="6243000" />
+      <workItem from="1587610442259" duration="1227000" />
+      <workItem from="1587613564570" duration="10922000" />
+      <workItem from="1587689730982" duration="93000" />
+      <workItem from="1587689943883" duration="22823000" />
+      <workItem from="1587863580312" duration="610000" />
+      <workItem from="1587949415564" duration="2297000" />
+      <workItem from="1587970914731" duration="3554000" />
+      <workItem from="1588036260202" duration="4419000" />
+      <workItem from="1588062382802" duration="2374000" />
+      <workItem from="1588066518447" duration="94000" />
+      <workItem from="1588066681604" duration="393000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Auto_Import" timestamp="1587623828747">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Auto_Import/0.0.1920.1040@0.0.1920.1040" timestamp="1587623828747" />
+    <state x="552" y="178" key="#Notifications" timestamp="1587436184938">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1587436184938" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588062528276">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588062528276" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1587705906850">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587705906850" />
+    <state x="689" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588042174575">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588042174575" />
+    <state x="738" y="348" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1587007617131">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="738" y="348" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587007617131" />
+    <state x="876" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587549275036">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="876" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587549275036" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587436578796">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587436578796" />
+    <state width="1189" height="466" key="DebuggerActiveHint" timestamp="1587359919270">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1189" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1587359919270" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1588062431837">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588062431837" />
+    <state width="1877" height="205" key="GridCell.Tab.0.bottom" timestamp="1588065963479">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="205" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588065963479" />
+    <state width="1877" height="205" key="GridCell.Tab.0.center" timestamp="1588065963479">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="205" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588065963479" />
+    <state width="1877" height="205" key="GridCell.Tab.0.left" timestamp="1588065963478">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="205" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588065963478" />
+    <state width="1877" height="205" key="GridCell.Tab.0.right" timestamp="1588065963479">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="205" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588065963479" />
+    <state width="1877" height="239" key="GridCell.Tab.1.bottom" timestamp="1588065963475">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="239" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588065963475" />
+    <state width="1877" height="239" key="GridCell.Tab.1.center" timestamp="1588065963475">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="239" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588065963475" />
+    <state width="1877" height="239" key="GridCell.Tab.1.left" timestamp="1588065963475">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="239" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588065963475" />
+    <state width="1877" height="239" key="GridCell.Tab.1.right" timestamp="1588065963475">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="239" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588065963475" />
+    <state x="515" y="103" key="SettingsEditor" timestamp="1587949982802">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="515" y="103" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587949982802" />
+    <state x="559" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587710587121">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="559" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587710587121" />
+    <state x="636" y="127" width="647" height="786" key="find.popup" timestamp="1587370303639">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="127" width="647" height="786" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587370303639" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587366904823">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587366904823" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../GaeaIndustryLib/src/main/java/com/wh/gaea/industry/builder/BOMBuilder.java</url>
+          <line>381</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../GaeaAPSPlugin/src/main/java/com/wh/gaea/plugin/aps/dialog/APSDialog.java</url>
+          <line>169</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="bom.getMaterialId()" />
+        <watch expression="product.materalId()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

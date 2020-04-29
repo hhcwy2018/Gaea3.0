@@ -1,0 +1,1 @@
+javaw -jar ./Gaea.jar -XX:+UseG1GC
